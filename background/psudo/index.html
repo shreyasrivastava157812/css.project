@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            color: red;
+            text-decoration: none;
+            transition: color 0.2s;
+
+        }
+
+        a:hover{
+            color: teal;
+            text-decoration: underline;
+
+        }
+
+        .btn{
+            background: yellow;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .btn:hover{
+            background: pink;
+        }
+
+        input:focus{
+            outline: 2px solid red;
+        }
+
+        tr:nth-child(even){
+            background: yellowgreen;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 50%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo-Class & Pseudo-element example</h1>
+    <p>
+        <a href="https://example.com" target="_blank" rel="noopener">
+            Example link
+        </a>
+    </p>
+
+    <button class="btn"> hover me</button>
+
+    <h2> input focus </h2>
+    <input type="text" placeholder="input the text">
+    <h2> student marks </h2>
+    <table>
+        <tr>
+            <td>Alice</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Apoorva</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Charu</td>
+            <td>99</td>
+        </tr>
+        <tr>
+            <td>Bhavya</td>
+            <td>95</td>
+        </tr>
+    </table>
+
+    <h2>Features</h2>
+    <ul class="features">
+        <li>Responsive design</li>
+        <li>Fast performANCE</li>
+        <li>Easy to use</li>
+        <li>Cross browser support</li>
+
+    </ul>
+
+</body>
+</html>
